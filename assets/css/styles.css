@@ -11,7 +11,7 @@
     --bolder-font: 900;
     --bg-color: #eae7dc;
     --bg-color2: #f2ece6;
-    /* --bg-color3: #f7f4f0;  not used yet */
+    --bg-color3: #f7f4f0;  
     --hero-color: #010b13;
     --brand-size: 40px;
     --brand-color: #080808;
@@ -143,4 +143,19 @@ nav ul li {
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+}
+
+.more-about {
+    background-color: var(--bg-color3);
+    padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    pad: 0.4rem;
 }
