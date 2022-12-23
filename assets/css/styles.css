@@ -10,11 +10,16 @@
     --bold-font: 400;
     --bolder-font: 900;
     --bg-color: #eae7dc;
+    --bg-color2: #f2ece6;
+    /* --bg-color3: #f7f4f0;  not used yet */
+    --hero-color: #010b13;
     --brand-size: 40px;
+    --brand-color: #080808;
     --subscript: 15px;
     --primary-color: #e98074;
     --secondary-color: #e85A4f;
     --tertiary-color: #d8c3a5;
+    --primary-shadow: rgb(0, 0, 0, 0.1);
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -49,6 +54,7 @@ nav span {
     font-weight: var(--bolder-font);
     font-size: var(--subscript);
     padding-right: 10px;
+    color: var(--brand-color);
 }
 
 nav span b {
@@ -58,6 +64,7 @@ nav span b {
 
 body {
     font-family: var(--font-family);
+    background-color: var(--bg-color);
 }
 
 
@@ -74,8 +81,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.1);
+    background-color: var(--bg-color2);
+    box-shadow: 0 3px 5px var(--primary-shadow);
 }
 
 nav a {
@@ -103,4 +110,37 @@ nav ul li {
     border: 0;
     cursor: pointer;
     display: none;
+}
+
+#about {
+    color: var(--hero-color);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero img {
+    height: 36.5rem;
+    width: 36.5rem;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    box-shadow: 0px 2px 15px 2px var(--primary-color);
+}
+
+.bio h2 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
 }
