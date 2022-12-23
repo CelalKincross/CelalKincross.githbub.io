@@ -1,3 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,400;1,200;1,900&display=swap');
+
+
+/* Variables */
+:root {
+    --font-brand: Tangerine, serif;
+    --font-family:Taviraj, serif;
+    --normal-font: 200;
+    --bold-font: 400;
+    --bolder-font: 900;
+    --bg-color: #eae7dc;
+    --brand-size: 40px;
+    --subscript: 15px;
+    --primary-color: #e98074;
+    --secondary-color: #e85A4f;
+    --tertiary-color: #d8c3a5;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: var(--bold-font);
+}
+
+a:hover {
+    color: var(--secondary-color);
+
+}
+
+nav span {
+    font-family: var(--font-brand);
+    font-weight: var(--bolder-font);
+    font-size: var(--subscript);
+    padding-right: 10px;
+}
+
+nav span b {
+    padding-right: 1rem;
+    font-size: var(--brand-size);
+}
+
 body {
-    background-color: red;
+    font-family: var(--font-family);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+.menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    cursor: pointer;
+    display: none;
 }
