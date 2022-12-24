@@ -10,9 +10,10 @@
     --bold-font: 400;
     --bolder-font: 900;
     --bg-color: #eae7dc;
-    --bg-color2: #f2ece6;
-    --bg-color3: #f7f4f0;  
+    --bg-nav: #f2ece6;
+    --bg-more-about: #f7f4f0;  
     --hero-color: #010b13;
+    --default-text-color: #1164b4;
     --brand-size: 40px;
     --brand-color: #080808;
     --subscript: 15px;
@@ -63,6 +64,7 @@ nav span b {
 }
 
 body {
+    color: var(--default-text-color);
     font-family: var(--font-family);
     background-color: var(--bg-color);
 }
@@ -81,7 +83,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color2);
+    background-color: var(--bg-nav);
     box-shadow: 0 3px 5px var(--primary-shadow);
 }
 
@@ -112,9 +114,9 @@ nav ul li {
     display: none;
 }
 
-#about {
-    color: var(--hero-color);
-}
+/* #about {
+    color: var(--hero-color2);
+} */
 
 .hero {
     display: flex;
@@ -146,7 +148,7 @@ nav ul li {
 }
 
 .more-about {
-    background-color: var(--bg-color3);
+    background-color: var(--bg-more-about);
     padding: 1rem 6rem;
 }
 
