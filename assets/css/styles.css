@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: var(--secondary-color);
+    color: var(--secondary-shadow);
 
 }
 
@@ -86,7 +86,7 @@ nav {
 }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--secondary-shadow);
     transition: var(--transition);
 }
 
