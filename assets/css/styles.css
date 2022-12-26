@@ -148,7 +148,7 @@ nav ul li {
 }
 
 .more-about {
-    background-color: var(--bg-more-about);
+    background-color: #f4f2ef;
     padding: 1rem 6rem;
 }
 
@@ -160,5 +160,34 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+}
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.skills-header {
+    margin-bottom: 1rem;
+}
+
+.skills-wrapper {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 5px 10px var(--primary-color);
+    margin: 10px;
+    padding: 20px;
+    background-color: var(--default-text-color);
 }
 
