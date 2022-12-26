@@ -16,6 +16,8 @@
 ## General Information
 - I have traveled and learned Mandarin Chinese, enough French to complete a year of studies at a Parisan university, and now, enough HTML, Javascript, CSS3 and other technologies to complete this on going portfolio website. I hope this website demostrates my on going and relentless pursuit of knowledge. 
 
+- I started using my Taiwanese name Yang-Lee Young (勇洋理) in place of my birth name John Dall'Olio. So, while the latter is my official name, the former is the name I am most often called and is subsequently on the website favicon. 
+
 
 ## Technologies Used
 - HTML
@@ -25,9 +27,10 @@
 - See other respositories for scripting with Bash and Python, and other technologies.
 
 ## Tools
-- [FontAwesome](https://fontawesome.com/) for the burger menu.
+- [Favicon Generator](https://favicon.io/favicon-generator/) to make the favicon
+- [FontAwesome](https://fontawesome.com/) to get icon the burger menu and skils section icons.
 - [icons8](https://icons8.com/) for the animated social icons.
-- [Animate CSS](https://animate.style/) for the web animations.
+- [Animate CSS](https://animate.style/) to animate hero card and skills' icons.
 - [Formspree](https://formspree.io/) for the contact form direct delivery to gmail.
 
 ## Project Status
