@@ -42,9 +42,9 @@ To do:
 
 
 ## Acknowledgements
-- Inspired by Angela's Yu Web Dev Bootcamp.
-- This project was based on Ksound's [FreeCodeCamp Tutorials](https://www.FreeCodeCamp.com). 
-- Many thanks to all those self-taught devs out there who insisted I keep on keeping on.
+- Inspired by Angela's Yu Web Dev Bootcamp and based on Ksound's [FreeCodeCamp Tutorials](https://www.FreeCodeCamp.com). 
+- [How to write a good README](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
+- Many thanks to all those self-taught/bootcamp devs out there who insisted I keep on keeping on.
 
 
 ## Contact
