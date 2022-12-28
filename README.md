@@ -38,6 +38,16 @@ Project is: _forever in progress_
 
 ## Room for Improvement
 Room for improvement:
+Short term:
+- iframes with project section
+- toggle feature with hover from img to iframe
+- update aesthetics (ongoing)
+    - lazy loading feature of projects
+    - styling of nav bar
+
+- social icons
+
+Long term:
 - Make website in React
 
 To do:
