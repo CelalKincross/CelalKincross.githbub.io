@@ -66,7 +66,7 @@ nav span b {
 body {
     color: var(--default-text-color);
     font-family: var(--font-family);
-    background-color: var(--bg-color);
+    background-color: var(--tertiary-color);
 }
 
 
@@ -128,8 +128,9 @@ nav ul li {
 }
 
 .hero img {
-    height: 36.5rem;
-    width: 36.5rem;
+    height: 33.5rem;
+    width: 33.5rem;
+    border-radius: 15%;
 }
 
 p.bio-text::first-letter, p.more-about-text::first-letter {
