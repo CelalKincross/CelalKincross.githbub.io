@@ -62,7 +62,9 @@ nav span b {
     padding-right: 1rem;
     font-size: var(--brand-size);
 }
-
+nav {
+    padding: 1.5rem 1rem;
+}
 body {
     color: var(--default-text-color);
     font-family: var(--font-family);
@@ -321,3 +323,4 @@ footer {
     text-align: center;
     margin: 2rem 0 0;
   }
+
